@@ -1,0 +1,26 @@
+.product {
+    padding: 0;
+
+    .card {
+        margin: 15px;
+
+        .card-title {
+            height: 50px;
+        }
+
+        .btn {
+            width: 100%;
+            background-color: black;
+            border-color: black;
+            border-radius: 50px;
+
+            &:hover, &:active {
+                background-color: grey !important;
+                color: #fff;
+                box-shadow: none !important;
+
+            }
+        }
+
+    }
+}
